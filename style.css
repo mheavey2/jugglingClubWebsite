@@ -1,0 +1,46 @@
+/* colour palette */
+
+/* global */
+* {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* header */
+
+.navList {
+  display: flex;
+  flex-flow: row wrap;
+}
+@media screen and (min-width: 800px) {
+  .navList {
+    justify-content: space-between;
+    max-width: 50%;
+  }
+}
+.navItem {
+  flex-basis: 100%;
+}
+@media screen and (min-width: 800px) {
+  .navItem {
+    flex: 1;
+  }
+}
+
+/* main */
+
+#classSchedule {
+  margin: 4rem 0rem;
+}
+
+td,
+th {
+  border: 0.1rem solid #3347ff;
+  width: 60rem;
+  text-align: center;
+}
+
+/* footer */
