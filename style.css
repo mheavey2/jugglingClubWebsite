@@ -9,15 +9,45 @@
 *:after {
   box-sizing: inherit;
 }
+body {
+  margin: 0%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 0.5%;
+}
+
+p {
+  text-align: center;
+  /* 
+  width: 100%; */
+}
+
 /* header */
+
+header {
+  display: flex;
+  flex-flow: column;
+  margin: 0%;
+  padding: 0%;
+}
+.navbar {
+  background-color: #33f8ff;
+  margin: 0%;
+  padding: 0.5%;
+}
 
 .navList {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
 }
 @media screen and (min-width: 800px) {
   .navList {
-    justify-content: space-between;
     max-width: 50%;
   }
 }
@@ -29,18 +59,120 @@
     flex: 1;
   }
 }
-
-/* main */
-
-#classSchedule {
-  margin: 4rem 0rem;
+.head {
+  text-align: center;
+  background-color: #4872c8;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+}
+.head h1 {
+  margin: 0%;
+  padding: 2%;
 }
 
+/* main */
+main {
+  background-color: #168fa8;
+  margin: 0%;
+  padding: 0%;
+}
+main h2,
+main h3 {
+  color: #f14c0d;
+}
+
+#aboutUs h2 {
+  padding: 2rem;
+  margin: 0%;
+  text-align: center;
+  font-size: 1.75rem;
+}
+/* #aboutUs p {
+  text-align: center;
+} */
+
+.pics-container {
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+}
+.pic-clubs {
+  height: 4em;
+  width: auto;
+}
+.pics-item {
+  display: inline-flex;
+  width: 25em;
+  height: 20em;
+  margin: 1%;
+  padding: 1%;
+}
+.joinUs {
+  text-align: center;
+}
+.joinUs span {
+  padding: 2em;
+}
+
+#classSchedule {
+  margin: 1%;
+}
+
+table {
+  background-color: #e27015;
+}
 td,
 th {
-  border: 0.1rem solid #3347ff;
+  border: 0.1rem solid #e24c15;
   width: 60rem;
   text-align: center;
 }
 
+#events,
+#beginner {
+  text-align: center;
+}
+#events div {
+  padding: 0.5%;
+  margin: 0.5%;
+}
+
+#beginner {
+  margin: 0%;
+  padding: 0%;
+}
+.beginner-resources {
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+}
+.resources-item {
+  display: inline-flex;
+  width: 20em;
+  height: 15em;
+  margin: 1%;
+  padding: 1%;
+}
+iframe {
+  /* width: 25%;
+  height: 25%; */
+  margin: 1%;
+  padding: 1%;
+  border: none;
+  overflow: hidden;
+}
+
 /* footer */
+footer {
+  background-color: #33f8ff;
+  margin: 0%;
+  padding: 1%;
+}
+footer a {
+  padding: 1%;
+}
