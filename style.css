@@ -29,8 +29,7 @@ li {
 p {
   text-align: center;
   color: #cc0033;
-  /* 
-  width: 100%; */
+  padding: 2em;
 }
 
 /* header */
@@ -168,8 +167,6 @@ ul {
   padding: 1%;
 }
 iframe {
-  /* width: 25%;
-  height: 25%; */
   margin: 1%;
   padding: 1%;
   border: none;
