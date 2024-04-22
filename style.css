@@ -1,4 +1,9 @@
-/* colour palette */
+/* colour palette 
+
+white: #fff 
+red: #CC0033
+cerulean blue: #407FA0
+*/
 
 /* global */
 * {
@@ -23,6 +28,7 @@ li {
 
 p {
   text-align: center;
+  color: #cc0033;
   /* 
   width: 100%; */
 }
@@ -36,7 +42,9 @@ header {
   padding: 0%;
 }
 .navbar {
-  background-color: #33f8ff;
+  display: flex;
+  justify-content: center;
+  background-color: #fffafa;
   margin: 0%;
   padding: 0.5%;
 }
@@ -44,7 +52,6 @@ header {
 .navList {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
 }
 @media screen and (min-width: 800px) {
   .navList {
@@ -59,27 +66,28 @@ header {
     flex: 1;
   }
 }
-.head {
+.heading {
   text-align: center;
-  background-color: #4872c8;
+  background-color: #fffafa;
   margin: 0%;
   padding: 0%;
   width: 100%;
 }
-.head h1 {
+.heading h1 {
+  color: #cc0033;
   margin: 0%;
   padding: 2%;
 }
 
 /* main */
 main {
-  background-color: #168fa8;
+  background-color: #fffafa;
   margin: 0%;
   padding: 0%;
 }
 main h2,
 main h3 {
-  color: #f14c0d;
+  color: #407fa0;
 }
 
 #aboutUs h2 {
@@ -105,8 +113,8 @@ main h3 {
 }
 .pics-item {
   display: inline-flex;
-  width: 25em;
-  height: 20em;
+  width: 12em;
+  height: 12em;
   margin: 1%;
   padding: 1%;
 }
@@ -119,30 +127,31 @@ main h3 {
 
 #classSchedule {
   margin: 1%;
+  display: flex;
+  justify-content: center;
 }
 
 table {
-  background-color: #e27015;
+  background-color: #fffafa;
+  color: #cc0033;
 }
 td,
 th {
-  border: 0.1rem solid #e24c15;
-  width: 60rem;
+  border: 0.1rem solid #407fa0;
+  width: 17rem;
   text-align: center;
 }
 
 #events,
-#beginner {
+#beginners {
   text-align: center;
 }
 #events div {
   padding: 0.5%;
   margin: 0.5%;
 }
-
-#beginner {
-  margin: 0%;
-  padding: 0%;
+ul {
+  color: #cc0033;
 }
 .beginner-resources {
   display: flex;
@@ -169,7 +178,9 @@ iframe {
 
 /* footer */
 footer {
-  background-color: #33f8ff;
+  display: flex;
+  justify-content: center;
+  background-color: #fffafa;
   margin: 0%;
   padding: 1%;
 }
